@@ -1,0 +1,39 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+body {
+    font-family: "Roboto", sans;
+}
+
+
+/* Navigation CSS Start */
+nav {
+    box-shadow: 0 0 10px 0 #00000023;
+}
+nav .nav-item a {
+    font-size: 14px;
+    color: #222;
+    transition: 0.4s;
+}
+nav .nav_button a {
+    font-size: 18px;
+}
+nav .nav-item a:hover {
+    color: #535353;
+}
+@media screen and (max-width: 992px) {
+    nav .nav-item a {
+        font-weight: 400 !important;
+        text-transform: capitalize !important;
+    }
+    nav .border_btm {
+        border-bottom: 1px solid #00000023;
+    }
+    nav .nav_menu {
+        color: #00000000 !important;
+    }
+}
+/* Navigation CSS End */
