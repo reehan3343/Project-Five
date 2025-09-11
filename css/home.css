@@ -26,7 +26,7 @@ header .texts a:hover {
 /* Header CSS End */
 
 
-/* About Top CSS Start */
+/* About Us Top CSS Start */
 .about_top {
     padding: 80px 0;
 }
@@ -40,4 +40,32 @@ header .texts a:hover {
 .about_top .item p {
     font-size: 14px;
 }
-/* About Top CSS End */
+/* About Us Top CSS End */
+
+
+/* About Us Bottom CSS Start */
+.about_btm {
+    background-color: rgb(248, 248, 248);
+}
+.about_btm .items .texts {
+    max-width: 600px;
+    padding: 100px;
+}
+.about_btm .items .texts h2 {
+    font-weight: 900;
+    font-size: 50px;
+}
+.about_btm .items .texts .blue {
+    color: #00c2e5;
+}
+.about_btm .items .texts a {
+    background-color: #00c2e5;
+    border: 2px solid #00c2e5;
+    transition: 0.4s;
+}
+.about_btm .items .texts a:hover {
+    border: 2px solid #00c2e5;
+    color: #00c2e5 !important;
+    background-color: white;
+}
+/* About Us Bottom CSS End */
