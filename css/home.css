@@ -1,0 +1,43 @@
+/* Header CSS Start */
+header {
+    background: url(/images/office-supplies-with-computer-notebook-white-desk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 180px 0 120px;
+}
+header .texts h1 {
+    font-size: 48px;
+}
+header .texts p {
+    font-size: 11px;
+    color: #444;
+}
+header .texts a {
+    background-color: #00c2e5;
+    border: 2px solid #00c2e5;
+    transition: 0.4s;
+}
+header .texts a:hover {
+    border: 2px solid #00c2e5;
+    color: #00c2e5 !important;
+    background-color: white;
+}
+/* Header CSS End */
+
+
+/* About Top CSS Start */
+.about_top {
+    padding: 80px 0;
+}
+.about_top .item .icon {
+    font-size: 56px;
+    color: #00c2e5;
+}
+.about_top .item h4 {
+    font-size: 22px;
+}
+.about_top .item p {
+    font-size: 14px;
+}
+/* About Top CSS End */

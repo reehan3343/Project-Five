@@ -12,6 +12,10 @@ body {
 /* Navigation CSS Start */
 nav {
     box-shadow: 0 0 10px 0 #00000023;
+    width: 100%;
+    position: fixed !important;
+    z-index: 9999 !important;
+    background-color: white;
 }
 nav .nav-item a {
     font-size: 14px;
