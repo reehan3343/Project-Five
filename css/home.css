@@ -69,3 +69,18 @@ header .texts a:hover {
     background-color: white;
 }
 /* About Us Bottom CSS End */
+
+
+/* Portfolios CSS Start */
+.portfolio {
+    padding: 90px 0;
+}
+.portfolio .headline p {
+    color: #a3a3a3;
+}
+.portfolio .headline h1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: #00c2e5;
+}
+/* Portfolios CSS End */
