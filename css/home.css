@@ -83,4 +83,50 @@ header .texts a:hover {
     font-size: 50px;
     color: #00c2e5;
 }
+.portfolio .item {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .item, .portfolio .image, .portfolio .texts, .portfolio .texts .portfolio_link a, .portfolio .texts .links .icon a {
+    transition: 0.4s;
+}
+.portfolio .texts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d3f8ffcc;
+    cursor: pointer;
+    opacity: 0;
+}
+.portfolio .item:hover .texts {
+    opacity: 1;
+}
+.portfolio .item:hover .image {
+    transform: scale(1.08);
+}
+.portfolio .texts .category a {
+    color: #444;
+    font-size: 13px;
+    border: 1px solid #444;
+}
+.portfolio .texts .portfolio_link a {
+    font-size: 19px;
+}
+.portfolio .texts .portfolio_link a:hover {
+    color: #00c2e5 !important;
+}
+.portfolio .texts p {
+    color: #888888;
+    font-size: 15px;
+}
+.portfolio .texts .links .icon {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+}
+.portfolio .texts .links .icon:hover a {
+    color: #00c2e5 !important;
+}
 /* Portfolios CSS End */
