@@ -130,3 +130,28 @@ header .texts a:hover {
     color: #00c2e5 !important;
 }
 /* Portfolios CSS End */
+
+
+/* Services CSS Start */
+.services .item {
+    padding: 130px;
+}
+.services .item p {
+    color: #555;
+    line-height: 28px;
+}
+.services .item a {
+    background-color: #00c2e5;
+    transition: 0.4s;
+}
+
+.services .item a:hover {
+    background-color: #000000;
+}
+.services .dark_bg {
+    background-color: #f2f2f2;
+}
+.services .normal_bg {
+    background-color: #f9f9f9;
+}
+/* Services CSS End */
