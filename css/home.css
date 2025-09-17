@@ -48,6 +48,11 @@ header .texts a:hover {
 .about_top .item p {
     font-size: 14px;
 }
+@media screen and (max-width: 576px) {
+    .about_top {
+        padding: 34px 0;
+    }
+}
 /* About Us Top CSS End */
 
 
@@ -149,6 +154,9 @@ header .texts a:hover {
     color: #00c2e5 !important;
 }
 @media screen and (max-width: 576px) {
+    .portfolio {
+        padding: 38px 0 90px;
+    }
     .portfolio .headline p {
         font-size: 12px;
     }
@@ -186,6 +194,10 @@ header .texts a:hover {
         padding: 40px 20px;
         text-align: center;
     }
+    .services .item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
 /* Services CSS End */
 
@@ -221,6 +233,9 @@ header .texts a:hover {
     font-size: 14px;
 }
 @media screen and (max-width: 576px) {
+    .team {
+        padding: 40px 0;
+    }
     .team .headline p, .team .headline h6 {
         font-size: 12px;
         line-height: 20px;
@@ -228,5 +243,95 @@ header .texts a:hover {
     .team .headline h1 {
         font-size: 34px;
     }
+    .team .headline h6 {
+        margin-bottom: 30px !important;
+    }
 }
 /* Our Team CSS End */
+
+
+/* Chart CSS Start */
+.chart {
+    background-color: #f7f8fa;
+    padding: 90px 0;
+}
+.chart .border_wrapper {
+    border: 14px solid #00c2e5;
+    max-width: 230px;
+}
+.chart .border_wrapper h2 {
+    font-size: 40px;
+    color: #555;
+}
+.chart .border_wrapper h5 {
+    color: #555;
+}
+.chart p {
+    color: #555;
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 220px;
+}
+@media screen and (max-width: 576px) {
+    .chart {
+        padding: 40px 0;
+    }
+    .chart p {
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 100%;
+    }
+}
+/* Chart CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    background: url(/images/testimonial_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.testimonial .wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000098;
+    padding: 100px 0;
+}
+.testimonial h1 {
+    font-weight: 900;
+    color: #00c2e5;
+    font-size: 48px;
+    margin-bottom: 46px;
+}
+.testimonial .review_text {
+    font-size: 20px;
+    max-width: 700px;
+    margin-bottom: 36px;
+}
+.testimonial .stars li {
+    list-style: none;
+    margin: 0 1px;
+}
+.testimonial .user {
+    font-size: 14px;
+}
+.testimonial .profile_picture {
+    max-width: 68px;
+}
+@media screen and (max-width: 576px) {
+    .testimonial .wrapper {
+        padding: 38px 0;
+    }
+    .testimonial h1 {
+        font-size: 38px;
+        margin-bottom: 16px !important;
+    }
+    .testimonial .review_text {
+        font-size: 18px;
+        margin-bottom: 14px !important;
+    }
+}
+/* Testimonial CSS End */
