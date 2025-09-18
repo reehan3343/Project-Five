@@ -179,7 +179,6 @@ header .texts a:hover {
     background-color: #00c2e5;
     transition: 0.4s;
 }
-
 .services .item a:hover {
     background-color: #000000;
 }
@@ -335,3 +334,73 @@ header .texts a:hover {
     }
 }
 /* Testimonial CSS End */
+
+
+/* Blog Start */
+.blog {
+    padding: 90px 0;
+}
+.blog .headline h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.blog .headline .blue {
+    color: #00c2e5;
+}
+.blog .headline p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.blog .blog_page {
+    box-shadow: 0 0 8px 0 #5555553a;
+}
+.blog .blog_page .image {
+    max-width: 440px;
+    overflow: hidden;
+}
+.blog .blog_page .image img {
+    width: 100%;
+    transition: 0.4s;
+}
+.blog .blog_page .image:hover img {
+    transform: scale(1.1);
+}
+.blog .blog_page .texts h5 a {
+    font-size: 18px;
+    transition: 0.4s;
+}
+.blog .blog_page .texts h5:hover a {
+    color: #00c2e5 !important;
+}
+.blog .blog_page .texts .wrapper {
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.blog .blog_page .texts .wrapper p, .blog .blog_page .texts .wrapper p a {
+    font-size: 12px;
+    color: #757575;
+}
+.blog .blog_page .texts .wrapper p a {
+    transition: 0.4s;
+}
+.blog .blog_page .texts .wrapper p a:hover {
+    color: #000;
+}
+.blog .blog_page .texts h6 {
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .headline h1 {
+        font-size: 36px;
+    }
+    .blog .headline p {
+        font-size: 12px;
+    }
+}
+/* Blog End */
