@@ -41,3 +41,44 @@ nav .nav-item a:hover {
     }
 }
 /* Navigation CSS End */
+
+
+/* Footer Top CSS Start */
+.footer_top {
+    background-color: #00c2e5;
+}
+.footer_top .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_top .wrapper h1 {
+    font-size: 48px;
+}
+.footer_top .wrapper a {
+    border: 2px solid #fff;
+    transition: 0.4s;
+}
+.footer_top .wrapper a:hover {
+    background-color: #fff;
+    color: black !important;
+}
+@media screen and (max-width: 768px) {
+    .footer_top .wrapper h1 {
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .footer_top .wrapper {
+        display: block;
+        text-align: center;
+    }
+    .footer_top .wrapper h1 {
+        font-size: 22px;
+        margin-bottom: 22px !important;
+    }
+    .footer_top .wrapper a {
+        font-size: 14px;
+    }
+}
+/* Footer Top CSS End */
