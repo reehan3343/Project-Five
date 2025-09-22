@@ -82,3 +82,70 @@ nav .nav-item a:hover {
     }
 }
 /* Footer Top CSS End */
+
+
+/* Footer Main CSS Start */
+footer {
+    background-color: #0d0d0d;
+    padding: 60px 0;
+    border-bottom: 1px solid #222;
+}
+footer .footer_about p, footer .footer_contact ul li {
+    color: #acacac;
+    font-size: 14px;
+    list-style: none;
+}
+footer .footer_blog .items .item .image {
+    max-width: 82px;
+    overflow: hidden;
+}
+footer .footer_blog .items .item .image img {
+    width: 100%;
+    transition: 0.4s;
+}
+footer .footer_blog .items .item .image img:hover {
+    transform: scale(1.08);
+}
+footer .footer_blog .items .item .texts h6 {
+    font-size: 14px;
+}
+footer .footer_blog .items .item .texts .wrapper p {
+    color: #acacac;
+    font-size: 11px;
+}
+footer .footer_tags .tags a {
+    font-size: 12px;
+    margin-bottom: 4px;
+    transition: 0.4s;
+}
+footer .footer_tags .tags a:hover {
+    color: #00c2e5 !important;
+}
+@media screen and (max-width: 576px) {
+    footer {
+        padding: 38px 0;
+    }
+}
+/* Footer Main CSS End */
+
+
+/* Footer Bottom CSS Start */
+.footer_btm {
+    background-color: #030303;
+}
+.footer_btm .copyright, .footer_btm .web_info {
+    font-size: 14px;
+    color: #acacac70;
+}
+.footer_btm .copyright a, .footer_btm .web_info a {
+    transition: 0.4s;
+}
+.footer_btm .copyright a:hover, .footer_btm .web_info a:hover {
+    color: #ffffffd5 !important;
+}
+@media screen and (max-width: 576px) {
+    .footer_btm .copyright,.footer_btm .web_info {
+        font-size: 12px;
+    }
+}
+/* Footer Bottom CSS End */
