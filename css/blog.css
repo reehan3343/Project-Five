@@ -1,0 +1,129 @@
+/* Blog Header CSS Start */
+header {
+    background-color: #eaebed;
+    padding: 150px 0 100px;
+}
+header p {
+    font-size: 14px;
+}
+header p .gray {
+    color: #7e7e7e;
+}
+/* Blog Header CSS End */
+
+
+/* Blog CSS Start */
+.blog {
+    padding: 90px 0 40px;
+}
+.blog .blog_page, .blog .blog_item {
+    box-shadow: 0 0 8px 0 #5555553a;
+}
+.blog .blog_item {
+    margin-bottom: 34px;
+}
+.blog .blog_page .image {
+    overflow: hidden;
+}
+.blog .blog_page .image img {
+    width: 100%;
+    transition: 0.4s;
+}
+.blog .blog_page .image:hover img {
+    transform: scale(1.1);
+}
+.blog .blog_page h5 a {
+    font-size: 24px;
+    transition: 0.4s;
+}
+.blog .blog_page h5:hover a {
+    color: #00c2e5 !important;
+}
+.blog .blog_page .wrapper {
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.blog .blog_page .wrapper p, .blog .blog_page .wrapper p a, .blog .blog_page .wrapper .share a {
+    font-size: 12px;
+    color: #757575;
+}
+.blog .blog_page .wrapper p a, .blog .blog_page .wrapper .share a {
+    transition: 0.4s;
+}
+.blog .blog_page .wrapper .share .facebook:hover {
+    color: #4267b2;
+}
+.blog .blog_page .wrapper .share .twitter:hover {
+    color: #1da1f2;
+}
+.blog .blog_page .wrapper .share .linkedin:hover {
+    color: #006a9c;
+}
+.blog .blog_page .wrapper .share .pinterest:hover {
+    color: #ec2327;
+}
+.blog .blog_page .wrapper p a:hover {
+    color: #000;
+}
+.blog .blog_page h6 {
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+}
+.blog .blog_page .read_more {
+    background-color: #00c2e5;
+    font-size: 12px;
+    transition: 0.4s;
+}
+.blog .posts .items .item .image {
+    max-width: 82px;
+    overflow: hidden;
+}
+.blog .posts .items .item .image img {
+    width: 100%;
+    transition: 0.4s;
+}
+.blog .posts .items .item .image img:hover {
+    transform: scale(1.08);
+}
+.blog .posts .items .item .texts h6 {
+    font-size: 14px;
+}
+.blog .posts .items .item .texts .wrapper p {
+    font-size: 11px;
+}
+.blog .portfolio .item {
+    overflow: hidden;
+}
+.blog .portfolio .item a img {
+    transition: 0.4s;
+}
+.blog .portfolio .item a:hover img {
+   transform: scale(1.08);
+}
+.blog .blog_tags a {
+    border: 1px solid #bebebe;
+    color: #8b8b8b;
+    font-size: 12px;
+    transition: 0.4s;
+}
+.blog .blog_tags a:hover {
+    color: #00c2e5;
+}
+.blog .meta a {
+    color: #757575;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.blog .meta a:hover {
+    color: #00c2e5;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 48px 0 0;
+    }
+    .blog .blog_page h5 a {
+        font-size: 18px;
+    }
+}
+/* Blog CSS End */
