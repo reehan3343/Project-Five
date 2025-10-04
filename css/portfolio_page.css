@@ -1,0 +1,66 @@
+/* Portfolio Page Header CSS Start */
+header {
+    background-color: #eaebed;
+    padding: 150px 0 100px;
+}
+header p {
+    font-size: 14px;
+}
+header p .gray {
+    color: #7e7e7e;
+}
+/* Portfolio Page Header CSS End */
+
+
+/* Portfolio Page CSS Start */
+.portfolio {
+    padding: 90px 0 40px;
+}
+.portfolio .portfolio_page .image img, .portfolio .portfolio_page .slider_image img {
+    width: 100%;
+    transition: 0.4s;
+}
+.portfolio .portfolio_page .slider_image {
+    max-width: 110px;
+}
+.portfolio .portfolio_page .slider_image:hover img {
+    filter: grayscale(1);
+}
+.portfolio .portfolio_page h6 {
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+}
+.portfolio .portfolio_item {
+    box-shadow: 0 0 8px 0 #5555553a;
+}
+.portfolio .portfolio_item {
+    margin-bottom: 34px;
+}
+.portfolio .info p, .portfolio .info .gray {
+    font-size: 14px;
+}
+.portfolio .info .gray {
+    color: #555;
+}
+.portfolio .info a {
+    transition: 0.4s;
+}
+.portfolio .info a:hover {
+    color: #00c2e5;
+}
+.portfolio .more_portfolio .item {
+    overflow: hidden;
+}
+.portfolio .more_portfolio .item a img {
+    transition: 0.4s;
+}
+.portfolio .more_portfolio .item a:hover img {
+    transform: scale(1.08);
+}
+@media screen and (max-width: 768px) {
+    .portfolio {
+        padding: 48px 0 0;
+    }
+}
+/* Portfolio Page CSS End */
