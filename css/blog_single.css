@@ -36,26 +36,26 @@ header p .gray {
     margin-top: 10px;
     border-bottom: 1px solid #eee;
 }
-.blog .blog_page .wrapper p, .blog .blog_page .wrapper p a, .blog .blog_page .wrapper .share a {
+.blog .blog_page .wrapper p, .blog .blog_page p a, .blog .blog_page .share_main a {
     font-size: 12px;
     color: #757575;
 }
-.blog .blog_page .wrapper p a, .blog .blog_page .wrapper .share a {
+.blog .blog_page p a, .blog .blog_page .share_main a {
     transition: 0.4s;
 }
-.blog .blog_page .wrapper .share .facebook:hover {
+.blog .blog_page .share_main .facebook:hover {
     color: #4267b2;
 }
-.blog .blog_page .wrapper .share .twitter:hover {
+.blog .blog_page .share_main .twitter:hover {
     color: #1da1f2;
 }
-.blog .blog_page .wrapper .share .linkedin:hover {
+.blog .blog_page .share_main .linkedin:hover {
     color: #006a9c;
 }
-.blog .blog_page .wrapper .share .pinterest:hover {
+.blog .blog_page .share_main .pinterest:hover {
     color: #ec2327;
 }
-.blog .blog_page .wrapper p a:hover {
+.blog .blog_page p a:hover {
     color: #000;
 }
 .blog .blog_page h6 {
@@ -63,10 +63,61 @@ header p .gray {
     font-size: 14px;
     line-height: 24px;
 }
-.blog .blog_page .read_more {
-    background-color: #00c2e5;
+.blog .blog_page .links, .blog .blog_page .links a {
+    color: #858585;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.blog .blog_page .links a:hover {
+    color: #000;
+}
+.blog .blog_page .share_btm .share_button {
     font-size: 12px;
     transition: 0.4s;
+}
+.blog .blog_page .share_btm .facebook {
+    background-color: #4267b2;
+}
+.blog .blog_page .share_btm .facebook:hover {
+    background-color: #2f487a;
+}
+.blog .blog_page .share_btm .twitter {
+    background-color: #1da1f2;
+}
+.blog .blog_page .share_btm .twitter:hover {
+    background-color: #1885c9;
+}
+.blog .blog_page .share_btm .linkedin {
+    background-color: #006a9c;
+}
+.blog .blog_page .share_btm .linkedin:hover {
+    background-color: #004b6e;
+}
+.blog .blog_page .share_btm .pinterest {
+    background-color: #ec2327;
+}
+.blog .blog_page .share_btm .pinterest:hover {
+    background-color: #bb1c1e;
+}
+.blog .blog_page .author h5 {
+    color: #555;
+    font-size: 18px;
+}
+.blog .blog_page .author p, .blog .blog_page .blog_contact p {
+    color: #555;
+    font-size: 14px;
+}
+.blog .blog_page .blog_contact form .input_group textarea:focus, .blog .blog_page .blog_contact form .input_group input:focus {
+    box-shadow: none;
+    border: 1px solid #00c2e5;
+}
+.blog .blog_page .blog_contact form button {
+    background-color: #00c2e5;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.blog .blog_page .blog_contact form button:hover {
+    background-color: #0098b3;
 }
 .blog .posts .items .item .image {
     max-width: 82px;
